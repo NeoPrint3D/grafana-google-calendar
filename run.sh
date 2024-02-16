@@ -1,0 +1,1 @@
+docker run -d -p 9154:9154 -v ./.env:/usr/src/app/.env --name=grafana-google-calendar grafana-google-calendar
